@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Gallery from "../components/Gallery/Gallery";
+import Marketplace from "../components/Marketplace/Marketplace";
 
 export default function Home() {
 	return (
@@ -27,6 +28,7 @@ export default function Home() {
 			<main>
 				<Hero />
 				<Gallery />
+				<Marketplace />
 			</main>
 		</>
 	);
