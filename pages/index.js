@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Gallery from "../components/Gallery/Gallery";
 import Marketplace from "../components/Marketplace/Marketplace";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Gallery />
         <Marketplace />
       </main>
+      <Footer />
     </>
   );
 }
