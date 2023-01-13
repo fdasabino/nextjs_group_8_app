@@ -1,14 +1,19 @@
-import React from "react";
+import { Modal } from "antd";
+import React, { useContext } from "react";
+import { ModalContext } from "../../context/modalContext";
 import Banner from "../Banner/Banner";
 import Card from "../Card/Card";
 
 const Marketplace = () => {
+  const { isModalOpen, showModal, handleOk, handleCancel } =
+    useContext(ModalContext);
+
   return (
     <div id="marketplace">
       <Banner headingType="marketPlace" />
       <section className="marketplace">
         <div className="left">
-          <Card />
+          <Card showModal={showModal} />
         </div>
         <div className="right">
           <div className="right_top">
@@ -29,6 +34,27 @@ const Marketplace = () => {
             <img src="/nft.png" alt="NFT" />
           </div>
         </div>
+        <Modal
+          title="Buy NFT"
+          open={isModalOpen}
+          onOk={handleOk}
+          onCancel={handleCancel}
+          cancelButtonProps={{
+            htmlType: "button",
+          }}
+          okButtonProps={{ htmlType: "button" }}
+        >
+          <form action="">
+            <label htmlFor="Name">Name:</label>
+            <input type="text" />
+            <label htmlFor="Email">Email:</label>
+            <input type="text" />
+            <label htmlFor="Phone">Tel:</label>
+            <input type="text" />
+            <label htmlFor="Bid">Bid:</label>
+            <input type="number" min="0" />
+          </form>
+        </Modal>
       </section>
     </div>
   );

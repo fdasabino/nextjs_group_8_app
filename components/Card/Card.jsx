@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 
-const Card = () => {
+const Card = ({ showModal }) => {
   return (
     <div className="card_wrapper">
       <div className="card_header">
@@ -40,7 +40,9 @@ const Card = () => {
           <p>Current Bid</p>
           <p>7 ETH</p>
         </div>
-        <Button buttonType="btnPurple">Bid Now</Button>
+        <Button buttonType="btnPurple" type="button" onClick={showModal}>
+          Bid Now
+        </Button>
       </div>
     </div>
   );
