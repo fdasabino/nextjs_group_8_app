@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { images } from "../../data.js";
 import Banner from "../Banner/Banner";
+import Image from "next/image";
 
 const Gallery = () => {
   // todo: add 1 of 10 to the bottom
@@ -17,10 +18,17 @@ const Gallery = () => {
             infiniteLoop={true}
             showThumbs={false}
             useKeyboardArrows={true}
+            showStatus={false}
           >
             {images.map((img) => (
               <div className="carousel" key={img.id}>
-                <img className="carousel_img" src={img.link} alt={img.title} />
+                <Image
+                  className="carousel_img"
+                  src={img.link}
+                  alt={img.title}
+                  width={400}
+                  height={400}
+                />
                 <div className="carousel_info">
                   <h3>{img.title}</h3>
                   <h4>{img.role}</h4>

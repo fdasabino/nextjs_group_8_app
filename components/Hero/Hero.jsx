@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
@@ -15,20 +14,33 @@ const Hero = () => {
           WELCOME TO Monaki! MEET OUR COLLECTION OF 3.333 UNIQUE NFT. SUPPORT
           AND JOIN OUR COMMUNITY, A NEW WORLD ARE WAITING FOR YOU.
         </p>
-        <img
+        <Image
           className="circle_element"
           src="/circle_element.png"
           alt="circle_element"
+          width={500}
+          height={500}
+          priority
         />
       </div>
       <div className="right">
         <div className="right_bg">
-          <img
+          <Image
             className="hero_circle"
             src="/hero_circle.png"
             alt="hero_circle"
+            width={500}
+            height={500}
+            priority
           />
-          <img className="hero_img" src="/hero.png" alt="hero" />
+          <Image
+            className="hero_img"
+            src="/hero.png"
+            alt="hero"
+            width={500}
+            height={500}
+            priority
+          />
         </div>
       </div>
     </section>

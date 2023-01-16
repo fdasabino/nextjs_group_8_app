@@ -13,6 +13,12 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+    }
   }
 
   .copyright {

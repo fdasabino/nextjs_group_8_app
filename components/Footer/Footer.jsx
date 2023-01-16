@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import { groupMembers } from "../../data";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -14,7 +15,12 @@ const Footer = () => {
             key={member.id}
           >
             <Button buttonType="btnBlack" type="button">
-              <img src={member.img} alt={member.title} />
+              <Image
+                src={member.img}
+                alt={member.title}
+                width={300}
+                height={300}
+              />
               {member.title}
             </Button>
           </a>

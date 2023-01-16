@@ -97,3 +97,25 @@ export const groupMembers = [
     link: "https://www.linkedin.com/in/sammani-ariyarathne/",
   },
 ];
+export const cardAvatars = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    alt: "person image in the sunset wearing hoodie",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    alt: "Profile image guy in glasses",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    alt: "Girl with short hair",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    alt: "Girl in the snow",
+  },
+];

@@ -1,6 +1,7 @@
-import { Modal } from "antd";
 import React, { useContext } from "react";
 import { ModalContext } from "../../context/modalContext";
+import { Modal } from "antd";
+import Image from "next/image";
 import Banner from "../Banner/Banner";
 import Card from "../Card/Card";
 
@@ -31,7 +32,7 @@ const Marketplace = () => {
             </p>
           </div>
           <div className="right_bottom">
-            <img src="/nft.png" alt="NFT" />
+            <Image src="/nft.png" alt="NFT" width={600} height={200} />
           </div>
         </div>
         <Modal
