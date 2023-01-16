@@ -37,7 +37,14 @@ const Navbar = () => {
             <a href="#marketplace">marketplace</a>
           </li>
           <li>
-            <Button buttonType="btnWhite" type="button">
+            <Button
+              buttonType="btnWhite"
+              type="button"
+              onClick={() => {
+                window.location.href = "#marketplace";
+                onClose();
+              }}
+            >
               BUY NFT
             </Button>
           </li>
@@ -62,7 +69,13 @@ const Navbar = () => {
       </div>
       <div className="right">
         <div className="hide_btn">
-          <Button buttonType="btnWhite" type="button">
+          <Button
+            buttonType="btnWhite"
+            type="button"
+            onClick={() => {
+              window.location.href = "#marketplace";
+            }}
+          >
             BUY NFT
           </Button>
         </div>

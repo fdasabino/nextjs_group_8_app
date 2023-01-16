@@ -1,5 +1,5 @@
 .hero {
-  min-height: 90vh;
+  min-height: 100vh;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@
 
       position: absolute;
       left: calc(100% - 4.5rem);
-      top: calc(75vh - 4.5rem);
+      top: calc(80vh - 4.5rem);
 
       animation-name: spin;
       animation-duration: 10000ms;

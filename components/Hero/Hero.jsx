@@ -8,11 +8,18 @@ const Hero = () => {
       <div className="left">
         <h1>COOLEST NFT SHOP</h1>
         <div className="display_mobile">
-          <Button buttonType="btnWhite">BUY NFT</Button>
+          <Button
+            buttonType="btnWhite"
+            onClick={() => {
+              window.location.href = "#marketplace";
+            }}
+          >
+            BUY NFT
+          </Button>
         </div>
         <p>
-          WELCOME TO Monaki! MEET OUR COLLECTION OF 3.333 UNIQUE NFT. SUPPORT
-          AND JOIN OUR COMMUNITY, A NEW WORLD ARE WAITING FOR YOU.
+          WELCOME TO Monaki! MEET OUR COLLECTION OF 3.333 UNIQUE NFT. SUPPORT AND JOIN OUR
+          COMMUNITY, A NEW WORLD ARE WAITING FOR YOU.
         </p>
         <Image
           className="circle_element"
