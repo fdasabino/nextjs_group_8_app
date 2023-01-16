@@ -1,9 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../Button/Button";
+import Timer from "../Timer/Timer";
 import { cardAvatars } from "/data.js";
 
 const Card = ({ showModal }) => {
+  const time = new Date();
+  time.setSeconds(time.getSeconds() + 600); //10min
+
   return (
     <div className="card_wrapper">
       <div className="card_header">
@@ -22,7 +26,7 @@ const Card = ({ showModal }) => {
         </div>
         <div className="card_info">
           <p>Remaining Time</p>
-          <p>09H : 11M : 07S </p>
+          <Timer expiryTimestamp={time} />
         </div>
       </div>
       <div className="card_main_img">

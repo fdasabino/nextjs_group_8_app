@@ -10,6 +10,7 @@ import "../styles/Gallery.scss";
 import "../styles/Card.scss";
 import "../styles/Marketplace.scss";
 import "../styles/Footer.scss";
+import "../styles/Timer.scss";
 
 export default function App({ Component, pageProps }) {
   return (

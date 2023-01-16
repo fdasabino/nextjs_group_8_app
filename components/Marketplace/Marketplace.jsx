@@ -46,14 +46,15 @@ const Marketplace = () => {
           okButtonProps={{ htmlType: "button" }}
         >
           <form action="">
-            <label htmlFor="Name">Name:</label>
-            <input type="text" />
-            <label htmlFor="Email">Email:</label>
-            <input type="text" />
-            <label htmlFor="Phone">Tel:</label>
-            <input type="text" />
-            <label htmlFor="Bid">Bid:</label>
-            <input type="number" min="0" />
+            <label htmlFor="Wallet Number">Wallet Number:</label>
+            <input
+              type="number"
+              min={0}
+              placeholder="Ex: 4654789466"
+              required
+            />
+            <label htmlFor="Bid">Bid in ETH:</label>
+            <input type="number" min={0} placeholder="ETH" required />
           </form>
         </Modal>
       </section>
