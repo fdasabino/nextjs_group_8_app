@@ -11,6 +11,10 @@ export default function Document() {
           content="Francisco Sabino, Regan Ya, Morgan Rapaport, Sammani Ariyarathne"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900&display:swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />
