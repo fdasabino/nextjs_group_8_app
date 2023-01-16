@@ -5,8 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="description" content="The coolest NFT page" />
-        <meta name="description" content="Free Web tutorials" />
-        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="keywords" content="Hyper Island, design, front-end" />
         <meta
           name="author"
           content="Francisco Sabino, Regan Ya, Morgan Rapaport, Sammani Ariyarathne"
