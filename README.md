@@ -4,6 +4,24 @@ This project is based on the prototype from [Nickelfox Design](https://www.figma
 
 ![Frames](https://res.cloudinary.com/frank2021/image/upload/v1673965406/group8-imgery/Frames_ckq30q.png)
 
+## Description of Course Goals (FED24 course 5,The First Single-Page App, in Hyper Island)
+
+- [x] Understand and know how to utilize modern JavaScript Syntax. (component, arrow function, de-structuring ...)
+
+- [x] Understand and know how to utilize Node Package Manager NPM and how to install 3rd party libraries.
+
+- [x] Understand what a server is and know how to set up a local development server.
+
+- [x] Understand the Component life cycle in React.
+
+- [x] Understand what is a Single-Page Application.
+
+- [x] Understanding the benefits of naming conventions.
+
+- [x] Know how to use Search Engine Optimisation in a single-page application.
+
+- [x] Know how to publishing websites.
+
 ## Introduction
 
 This project was developed in order to achieve the learning outcomes for the course, The First Single-Page App, from Hyper Island.\
@@ -60,16 +78,20 @@ browser to provide auto updating whenever changes are made, and it can be brough
 ## Component Lifecycle
 
 Lifecycle methods are custom functionality that gets executed during the different phases of a component.\
- There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.\
- We can achieve the functionality of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` using the `useEffect()` hook. \
- In the example below, the useEffect hook, monitors the changes in the state of a variable, and executes an specific block of coding according to the variable's state.\
- ![useEffect](https://res.cloudinary.com/frank2021/image/upload/v1674036000/group8-imgery/useEffect_ok2jj9.png)
+There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.\
+We can achieve the functionality of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` using the `useEffect()` hook. \
+In the example below, the useEffect hook, monitors the changes in the state of a variable, and executes an specific block of coding according to the variable's state.\
+![useEffect](https://res.cloudinary.com/frank2021/image/upload/v1674036000/group8-imgery/useEffect_ok2jj9.png)
 
 ## SPAs - Single Page applications
 
 An SPA (Single-page application) is a web app implementation that loads only a `single web document`, and then updates the body content of that single document via `JavaScript`.\
 This therefore allows users to use websites without loading whole new pages from the server, which can result in performance gains and a more dynamic experience, with some trade off disadvantages such as SEO.\
 This SPA we have implemented uses a framework called NextJS, which comes with some features that doesn't present on a pure React application. Therefore, [SEO](#seo-search-engine-optimization) has not been an issue.
+
+## Naming Conventions
+
+In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers for variables, types, functions, and other entities in source code and documentation. Naming conventions are important because they make code more readable and organized.
 
 ## SEO-Search Engine Optimization
 
@@ -92,33 +114,32 @@ To optimize SEO, we have added in the `<head>` section to our page, including th
 
 ![head_section](https://res.cloudinary.com/frank2021/image/upload/v1674038793/group8-imgery/head_tags_d2k9jr.png)
 
-## Naming Conventions
+## Publishing Website
 
-Names of components start with upper case. Use pascal case for component names. A component as well as file names in React should always be with pascal case.
+### Deployment
 
-## Deployment
+We have deployed our application to [Vercel Website](https://monakinft.vercel.app/) (created by the next team) importing our repository from github. The build process is very smooth, because during deployment Vercel will run run build automatically on the server.
 
-> Know how to publishing websites.
+Here are the steps:
 
-We deployed to [Vercel](https://monakinft.vercel.app/)
+1. Open Vercel dashboard and click `new project` and click on `project`:
+   ![Step1](https://res.cloudinary.com/frank2021/image/upload/v1674062256/group8-imgery/2023-01-18_4_xmkifp.png)
 
-## GitHub
+2. Select a repository of choice and click on import. (If you have connected your github account, otherwise vercel will ask for a github account):
+   ![Step2](https://res.cloudinary.com/frank2021/image/upload/v1674062256/group8-imgery/2023-01-18_5_sg3x8r.png)
 
-## Description of Course Goals
+3. Once you have selected the repository, your project a desired name or just click `deploy`:
+   ![Step3](https://res.cloudinary.com/frank2021/image/upload/v1674062256/group8-imgery/2023-01-18_6_sgjndi.png)
 
-Understand and know how to utilize modern JavaScript Syntax.
-(component, arrow function, de-structuring ...)
+4. After that just click on visit to see the page:
+   ![Step4](https://res.cloudinary.com/frank2021/image/upload/v1674062984/group8-imgery/2023-01-18_7_pt8l3k.png)
 
-Understand and know how to utilize Node Package Manager NPM and how to install 3rd party libraries.
+### GitHub
 
-Understand what a server is and know how to set up a local development server.
+- We have used [GitHub](https://github.com/) for code collaboration and top store out code:
 
-Understand the Component life cycle in React.
+  ![commits](https://res.cloudinary.com/frank2021/image/upload/v1674063434/group8-imgery/2023-01-18_8_qvojrq.png)
 
-Understand what is a Single-Page Application.
+- Pull requests:
 
-Understanding the benefits of naming conventions.
-
-Know how to use Search Engine Optimisation in a single-page application.
-
-Know how to publishing websites.
+  ![Pull requests](https://res.cloudinary.com/frank2021/image/upload/v1674063586/group8-imgery/2023-01-18_9_vnt5cw.png)
