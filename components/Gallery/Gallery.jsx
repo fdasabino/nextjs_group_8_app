@@ -5,7 +5,6 @@ import Banner from "../Banner/Banner";
 import Image from "next/image";
 
 const Gallery = () => {
-  // todo: add 1 of 10 to the bottom
   return (
     <div id="gallery">
       <Banner headingType="gallery" />
