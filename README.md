@@ -1,12 +1,10 @@
 # Monaki NFT - [Live Project](https://monakinft.vercel.app/)
 
-This project is based on the prototype from [Nickelfox Design](https://www.figma.com/@nickelfox), and here are the references: [link 1](https://www.figma.com/community/file/1185470845735224187) and [link 2](https://www.figma.com/community/file/1176545097659272549).
-
 ![Frames](https://res.cloudinary.com/frank2021/image/upload/v1673965406/group8-imgery/Frames_ckq30q.png)
 
-## Description of Course Goals (FED24 course 5,The First Single-Page App, in Hyper Island)
+## Description of Course Goals (course 5, The First Single-Page App by [Lina Wang](https://www.linkedin.com/in/lina-wang-801074114/), Front-end Developer Program 24 in Hyper Island)
 
-- [x] Understand and know how to utilize modern JavaScript Syntax. (component, arrow function, de-structuring ...)
+- [x] Understand and know how to utilize modern JavaScript Syntax.
 
 - [x] Understand and know how to utilize Node Package Manager NPM and how to install 3rd party libraries.
 
@@ -18,7 +16,7 @@ This project is based on the prototype from [Nickelfox Design](https://www.figma
 
 - [x] Understanding the benefits of naming conventions.
 
-- [x] Know how to use Search Engine Optimisation in a single-page application.
+- [x] Know how to use Search Engine Optimization in a single-page application.
 
 - [x] Know how to publishing websites.
 
@@ -35,9 +33,25 @@ A JavaScript library for building user interfaces, that uses a component based s
 
 Next.js is a flexible (React framework) that gives you building blocks to create fast web applications, which provides a bunch of features out of the box.
 
-## ES7 Syntax
+## Modern JavaScript Syntax
 
-In this project we have made use of several modern JavaScript syntax elements, such as arrow functions, components, props and so on.
+In this project we have made use of several modern JavaScript syntax elements (we've used: component, wide state management, arrow function, destructuring ...), such as arrow functions, components, props and so on.
+
+- We have built a component, `Button`, to make our code re-usable and organized:
+
+  ![Button Component](https://res.cloudinary.com/frank2021/image/upload/v1674064470/group8-imgery/button_jj4wxq.png)
+
+- Wide state management using `React Context`:
+
+  ![useContext](https://res.cloudinary.com/frank2021/image/upload/v1674064721/group8-imgery/useContext_kpv98f.png)
+
+- Arrow functions:
+
+  ![Arrow Functions](https://res.cloudinary.com/frank2021/image/upload/v1674064965/group8-imgery/arrow_fucntion_fmsd3i.png)
+
+- Array destructuring:
+
+  ![Array destructuring](https://res.cloudinary.com/frank2021/image/upload/v1674065316/group8-imgery/array_de_y5ejyf.png)
 
 ## NPM Packages
 
@@ -80,7 +94,8 @@ browser to provide auto updating whenever changes are made, and it can be brough
 Lifecycle methods are custom functionality that gets executed during the different phases of a component.\
 There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.\
 We can achieve the functionality of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` using the `useEffect()` hook. \
-In the example below, the useEffect hook, monitors the changes in the state of a variable, and executes an specific block of coding according to the variable's state.\
+In the example below, the useEffect hook, monitors the changes in the state of a variable, and executes an specific block of coding according to the variable's state.
+
 ![useEffect](https://res.cloudinary.com/frank2021/image/upload/v1674036000/group8-imgery/useEffect_ok2jj9.png)
 
 ## SPAs - Single Page applications
@@ -143,3 +158,20 @@ Here are the steps:
 - Pull requests:
 
   ![Pull requests](https://res.cloudinary.com/frank2021/image/upload/v1674063586/group8-imgery/2023-01-18_9_vnt5cw.png)
+
+## Acknowledgements
+
+### TEAM MEMBERS:
+
+- [Francisco Sabino](https://github.com/fdasabino)
+- [Regan Ya](https://github.com/hens-virtuella-varld)
+- [Sammani Ariyarathne](https://github.com/SammaniAri)
+- [Morgan Rapaport](https://github.com/MorganRapaport)
+
+### Mentor:
+
+- We would like to thank [Anna Erkers](https://github.com/Hilwynn) for all the mentoring sessions and all the good tips.
+
+### Design:
+
+- This project is based on the prototype from [Nickelfox Design](https://www.figma.com/@nickelfox), and here are the references: [link 1](https://www.figma.com/community/file/1185470845735224187) and [link 2](https://www.figma.com/community/file/1176545097659272549).
