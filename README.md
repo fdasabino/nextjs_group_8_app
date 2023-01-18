@@ -161,17 +161,17 @@ Here are the steps:
 
 ## Acknowledgements
 
-### TEAM MEMBERS:
+### TEAM MEMBERS
 
 - [Francisco Sabino](https://github.com/fdasabino)
 - [Regan Ya](https://github.com/hens-virtuella-varld)
 - [Sammani Ariyarathne](https://github.com/SammaniAri)
 - [Morgan Rapaport](https://github.com/MorganRapaport)
 
-### Mentor:
+### Mentor
 
 - We would like to thank [Anna Erkers](https://github.com/Hilwynn) for all the mentoring sessions and all the good tips.
 
-### Design:
+### Design
 
 - This project is based on the prototype from [Nickelfox Design](https://www.figma.com/@nickelfox), and here are the references: [link 1](https://www.figma.com/community/file/1185470845735224187) and [link 2](https://www.figma.com/community/file/1176545097659272549).
